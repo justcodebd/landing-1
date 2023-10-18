@@ -1,0 +1,78 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+/* started header  */
+
+header {
+    height: 90px;
+}
+header .header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+}
+header .middle-menu {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+header  .middle-menu a {
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+header  .middle-menu a:hover { 
+    color: #F53838;
+}
+header .right-menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+}
+header .right-menu a {
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    transition: all .5s ease-in;
+}
+header .right-menu a:hover {
+    color: #F53838;
+}
+header  .right-menu .btn-signup {
+    padding: 13px 45px;
+    background-color: transparent;
+    border: 1px solid #F53838;
+    border-radius: 50px;
+    transition: all .5s ease-in;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+header  .right-menu .btn-signup:hover {
+    cursor: pointer;
+    background-color: #F53838;
+    color: #fff;
+}
