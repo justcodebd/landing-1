@@ -9,6 +9,7 @@
 .container {
     max-width: 1140px;
     margin: auto;
+    padding: 0 24px;
 }
 
 /* started header  */
@@ -75,4 +76,29 @@ header  .right-menu .btn-signup:hover {
     cursor: pointer;
     background-color: #F53838;
     color: #fff;
+} 
+
+.hamburger {
+    display: none;
+} 
+
+.service  {
+
 }
+.service .service-content {
+    display: flex;
+}
+.service .service-content  .col{ 
+    background-color: red;
+    flex-basis: 33%;
+}
+@media only screen and (max-width: 768px) {
+    .service .service-content { 
+        flex-direction: column;
+        gap: 20px;
+    }
+    .service .service-content  .col{ 
+        background-color: red;
+        /* flex-basis: 100%; */
+    }
+  }
